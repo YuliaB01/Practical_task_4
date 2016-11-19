@@ -1,0 +1,65 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI Light", sans-serif;
+	height: 100%;
+}
+
+.header {
+	text-align: center;
+	background-color: #FEFFED;
+	height: 100px;
+}
+
+.heading {
+	margin: 0;
+	padding-top: 20px;
+}
+
+.menu_list {
+	height: 100%;
+	box-shadow: 0 0 15px 3px #333;
+	text-align: center;
+	background-color: #E1F4F4;
+}
+
+.list {
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list_item {
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+}
+
+.list li .link {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 15px;
+	background-color: #2B282C;
+	color: white;
+	border-right: 1px solid white;
+}
+
+.list_item .link:hover {
+	background-color: #555256;
+}
+
+ .hover_list {
+	display: none;
+	position: absolute;
+}
+
+.list_item:hover .hover_list {
+	display: block;
+}
+
+.hover_list .link {
+	width: 150px;
+	border-bottom: 1px solid white;
+	text-align: left;
+}
